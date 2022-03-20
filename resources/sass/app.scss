@@ -1,0 +1,61 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root{
+    --dark-blue: #190539;
+    --light-grey: #b0b0b0;
+    --almost-black: #151515;
+    --almost-white: #fafafa;
+    --dark-grey: #606060;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    background-color:var(--almost-white);
+}
+
+header{
+    background-color: var(--dark-grey);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav{
+    position: absolute;
+    background-color: var(--dark-grey);
+    text-align: left;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+nav a{
+    color: var(--almost-white);
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: var(--almost-black);
+}
