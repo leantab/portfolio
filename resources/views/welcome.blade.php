@@ -1,22 +1,22 @@
 <x-app-layout>
 	<div>
-		<div class="sm:block md:flex flex-row">
+		<div class="sm:block md:flex flex-row justify-arround">
 			<!-- Header -->
-			<section id="left" class="w-36">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
-					<h1><strong>I am Strata</strong>, a super simple<br />
-						responsive site template freebie<br />
-						crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+			<section id="left">
+				<div style="background-image: url(/images/bg.jpg)" class="h-full max-w-3xl bg-fixed flex flex-col justify-start  items-center">
+					<img src="/images/avatar.jpg" alt="photo" class="w-1/2 m-8 border-4 rounded-full" />
+					<h1 class="mx-4 my-12 text-center text-xl ">I am <strong>Leandro</strong>, a Software engenier<br />
+						PHP Developer, Laravel lover<br />
+						This is my Portfolio page.</h1>
 				</div>
 			</section>
 
 			<!-- Main -->
-			<div id="main">
+			<div id="main" class="mt-8 ml-8 flex flex-col justify-arround">
 
 				<!-- One -->
 				<section id="one">
-					<header class="major">
+					<header class="text-6xl my-16">
 						<h2>Ipsum lorem dolor aliquam ante commodo<br />
 							magna sed accumsan arcu neque.</h2>
 					</header>
@@ -29,9 +29,9 @@
 				</section>
 
 				<!-- Two -->
-				<section id="two">
-					<h2>Recent Work</h2>
-					<div class="row">
+				<section id="two" class="my-16 ">
+					<h2 class="text-2xl my-4">Recent Work</h2>
+					<div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3">
 						<article class="col-6 col-12-xsmall work-item">
 							<a href="/images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
 							<h3>Magna sed consequat tempus</h3>
