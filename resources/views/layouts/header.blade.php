@@ -1,6 +1,9 @@
 <header>
     <h1 class="logo">Logo</h1>
-
+    <input type="checkbox" class="nav-toggle" id="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span>X</span>
+    </label>
     <nav>
         <ul>
             <li><a href="#">Home</a></li>

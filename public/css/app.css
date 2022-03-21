@@ -7,6 +7,7 @@
   --almost-black: #151515;
   --almost-white: #fafafa;
   --dark-grey: #606060;
+  --header-bg: rgba(23, 119, 100, 0.85);
 }
 
 body {
@@ -17,24 +18,25 @@ body {
 }
 
 header {
-  background-color: var(--dark-grey);
+  background-color: var(--header-bg);
   text-align: center;
   position: fixed;
   width: 100%;
 }
 
 .logo {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
 }
 
 nav {
   position: absolute;
-  background-color: var(--dark-grey);
+  background-color: var(--header-bg);
   text-align: left;
   top: 100%;
   left: 0%;
   width: 100%;
+  display: none;
 }
 
 nav ul {
@@ -57,6 +59,23 @@ nav a {
 
 nav a:hover {
   color: var(--almost-black);
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle:checked ~ nav {
+  display: block;
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com

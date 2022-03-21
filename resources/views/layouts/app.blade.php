@@ -15,6 +15,10 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+         <!-- Our project just needs Font Awesome solid + brand -->
+        <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
+        <script defer src="/your-path-to-fontawesome/js/solid.js"></script>
+        <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
     </head>
     <body class="antialiased">
         <div class="" >
